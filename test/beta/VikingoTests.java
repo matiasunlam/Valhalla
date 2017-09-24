@@ -26,7 +26,7 @@ public class VikingoTests {
 	}
 	
 	@Test
-	public void queSePoneSobrioSiLoSacudenEbrio() {
+	public void queAtacaSobrioSiAntesLoSacudenEbrio() {
 		Vikingo v1 = new Vikingo();
 		Vikingo v2 = new Vikingo();
 		
@@ -38,7 +38,7 @@ public class VikingoTests {
 	}
 	
 	@Test
-	public void queSeEnojaSiLoSacudenSobrio() {
+	public void queAtacaMejorEnojado() {
 		Vikingo v1 = new Vikingo();
 		Vikingo v2 = new Vikingo();
 		
@@ -49,7 +49,7 @@ public class VikingoTests {
 	}
 	
 	@Test
-	public void queSeEnojaMasSiLoSacudenEnojado() {
+	public void queAtacaMejorMuyEnojado() {
 		Vikingo v1 = new Vikingo();
 		Vikingo v2 = new Vikingo();
 		
